@@ -5,8 +5,12 @@ import MainPage from './components/mainPage/MainPage';
 import OurShirts from './components/ourShirts/OurShirts'
 import Shop from './components/shop/Shop';
 import ShopItem from './components/shopItem/ShopItem';
+<<<<<<< HEAD
 import AboutPage from './components/about/aboutPage';
 import HowToSelectCustomShirt from './components/how-to-select-custom-shirt/how-to-select-custom-shirt';
+=======
+import ContactUs from './components/contactUsPage/mainContactUs/contactUs'
+>>>>>>> d39f429bb4affef35a387ae9acba3d663127b51d
 
 function App() {
   return (
