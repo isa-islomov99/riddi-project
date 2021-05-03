@@ -1,0 +1,137 @@
+.text_container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto auto auto;
+	grid-column-gap: auto;
+	grid-row-gap: 20px;
+}
+
+.contact_text_header {
+	font-family: Lab Grotesque;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 26px;
+	line-height: 163.1%;
+	text-transform: uppercase;
+	color: #555555;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.gmail {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: initial;
+	font-size: 19px;
+	text-transform: uppercase;
+
+	color: #555555;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+.gmail_data {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 27px;
+	color: #555555;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.number {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 27px;
+	text-transform: uppercase;
+
+	color: #555555;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.address {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #555555;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.address_data {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 27px;
+	color: #555555;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+.occupation_time {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #555555;
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.number_data {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 27px;
+	text-transform: uppercase;
+
+	color: #555555;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.occupation_time_data {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 27px;
+	color: #555555;
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+	.text {
+		grid-column-gap: 50px;
+		grid-row-gap: 20px;
+	}
+}

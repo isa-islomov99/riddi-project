@@ -1,0 +1,331 @@
+.contact_us {
+	width: 93%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.text_container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto auto auto;
+	grid-column-gap: auto;
+	grid-row-gap: 20px;
+}
+
+.contact_text_header {
+	font-family: Lab Grotesque;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 26px;
+	line-height: 163.1%;
+	text-transform: uppercase;
+	color: #555555;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.gmail {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: initial;
+	font-size: 19px;
+	text-transform: uppercase;
+
+	color: #555555;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+.gmail_data {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 27px;
+	color: #555555;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.number {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 27px;
+	text-transform: uppercase;
+
+	color: #555555;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.address {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #555555;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.address_data {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 27px;
+	color: #555555;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+.occupation_time {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #555555;
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.number_data {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 27px;
+	text-transform: uppercase;
+
+	color: #555555;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.occupation_time_data {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 27px;
+	color: #555555;
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.map_top_text {
+	display: flex;
+	justify-content: flex-start;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #555555;
+}
+
+.map_bottom_text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 19px;
+	margin: 50px 0 50px 0;
+	text-transform: uppercase;
+	color: #555555;
+	display: flex;
+	justify-content: center;
+}
+
+.big_inputs_container {
+	width: 70%;
+	height: 200px;
+	margin-left: 160px;
+}
+
+.inputs_grid_container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto auto auto auto;
+	column-gap: 15px;
+}
+.first_input,
+.second_input,
+.third_input {
+	border: none;
+	width: 280px;
+	height: 40px;
+	background: #ffffff;
+	box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+	grid-column-gap: 15px;
+	margin-bottom: 15px;
+}
+.first_input_name_data {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #555555;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	margin-bottom: 15px;
+}
+.first_input {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+.second_input_mail_data {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #555555;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	margin-bottom: 15px;
+}
+.second_input {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	margin: 0;
+}
+.third_input_number_data {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #555555;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	margin-bottom: 15px;
+}
+.third_input {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.fourth_input_text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #555555;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+.fourth_input {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	width: 874px;
+	height: 160px;
+
+	background: #ffffff;
+	box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+.contact_us_btn {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 6;
+	width: 280px;
+	height: 50px;
+	margin-top: 50px;
+	background: #555555;
+	border: 2px solid #555555;
+	box-sizing: border-box;
+}
+
+.contact_us_btn_text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+	.big_inputs {
+		margin-left: 0;
+	}
+
+	.first_input,
+	.second_input,
+	.third_input {
+		width: 252px;
+		height: 35px;
+	}
+	.forth_input {
+		width: 790px;
+		height: 140px;
+		margin: 0;
+	}
+	.contact_us_btn {
+		width: 252px;
+		height: 35px;
+	}
+	.contact_us_btn_text {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+	.map {
+		width: 837px;
+	}
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+	.text {
+		grid-column-gap: 50px;
+		grid-row-gap: 20px;
+	}
+}

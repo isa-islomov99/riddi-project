@@ -1,0 +1,29 @@
+.map_top_text {
+	display: flex;
+	justify-content: flex-start;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #555555;
+}
+
+.map_bottom_text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 19px;
+	margin: 50px 0 50px 0;
+	text-transform: uppercase;
+	color: #555555;
+	display: flex;
+	justify-content: center;
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+	.map {
+		width: 837px;
+	}
+}
