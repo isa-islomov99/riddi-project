@@ -5,6 +5,7 @@ import MainPage from './components/mainPage/MainPage';
 import OurShirts from './components/ourShirts/OurShirts';
 import Shop from './components/shop/Shop';
 import ShopItem from './components/shopItem/ShopItem';
+<<<<<<< HEAD
 import ContactUs from './components/contactUsPage/mainContactUs/contactUs';
 
 function App() {
@@ -20,6 +21,31 @@ function App() {
 			<Footer />
 		</div>
 	);
+=======
+<<<<<<< HEAD
+import AboutPage from './components/about/aboutPage';
+import HowToSelectCustomShirt from './components/how-to-select-custom-shirt/how-to-select-custom-shirt';
+=======
+import ContactUs from './components/contactUsPage/mainContactUs/contactUs'
+>>>>>>> d39f429bb4affef35a387ae9acba3d663127b51d
+
+function App() {
+  return (
+    <div className="App">
+      <Switch>
+        <Route path="/" exact component={MainPage}/>
+        <Route path="/ourShirts" component={OurShirts} />
+        <Route path="/shop" exact component={Shop} />
+        <Route path="/shopItem" exact component={ShopItem}/>
+        <Route path="/about" exact component={AboutPage}/>
+        <Route path="/shopItem" exact component={ShopItem}/>
+        <Route path="/selectCustomShirt" exact component={HowToSelectCustomShirt}/>
+
+      </Switch>
+      <Footer />
+    </div>
+  );
+>>>>>>> cdd4b00c30969c5ef098c27f5a2c2719e31151ef
 }
 
 export default App;
