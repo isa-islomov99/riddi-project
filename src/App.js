@@ -10,7 +10,6 @@ import Card from "./components/card/card"
 import Checkout from "./pages/checkout/checkout"
 import EmptyCard from "./components/empty-card/emptyCard"
 import Vaucher from "./pages/vaucher/vaucher"
-
 import AboutPage from './components/about/aboutPage';
 import HowToSelectCustomShirt from './components/how-to-select-custom-shirt/how-to-select-custom-shirt';
 import ContactUs from './components/contactUsPage/mainContactUs/contactUs'
