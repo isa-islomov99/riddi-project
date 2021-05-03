@@ -10,14 +10,13 @@ import ContactUs from './components/contactUsPage/mainContactUs/contactUs'
 function App() {
   return (
     <div className="App">
-      {/* <Switch>
+      <Switch>
         <Route path="/" exact component={MainPage}/>
         <Route path="/ourShirts" component={OurShirts} />
         <Route path="/shop" exact component={Shop} />
         <Route path="/shopItem" exact component={ShopItem}/>
       </Switch>
-      <Footer /> */}
-      <ContactUs/>
+      <Footer />
     </div>
   );
 }
