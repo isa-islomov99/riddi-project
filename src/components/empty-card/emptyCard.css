@@ -1,0 +1,54 @@
+.emptyCard {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.emptyTitle {
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 163.1%;
+  margin: 2% auto;
+  color: #999999;
+}
+
+.emptyImg-item {
+  width: 15%;
+  margin: 2% auto;
+}
+
+.empatyImg {
+  width: 100%;
+  height: auto;
+}
+
+.emptyText {
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 163.1%;
+  text-transform: uppercase;
+  margin: 4% auto;
+  color: #999999;
+}
+
+@media screen and (max-width: 900px) {
+  .emptyTitle {
+    font-size: 32px;
+  }
+
+  .emptyText {
+    font-size: 18px;
+  }
+
+  .emptyImg-item {
+    width: 15%;
+  }
+}

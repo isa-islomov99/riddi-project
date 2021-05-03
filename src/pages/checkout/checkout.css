@@ -1,0 +1,279 @@
+.checkout {
+  width: 100%;
+}
+
+.ОФОРМЛЕНИЕ-ЗАКАЗА {
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 163.1%;
+  margin: 1% 0;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.checkout-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-item-form {
+  width: 62%;
+  height: auto;
+}
+
+.item-form {
+  width: 100%;
+  height: 70%;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-left {
+  width: 48%;
+  background-color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-right {
+  width: 48%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-label {
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 163.1%;
+  text-transform: uppercase;
+  color: #555555;
+  margin-bottom: 1%;
+}
+
+.form-input {
+  background: #ffffff;
+  box-shadow: inset 0px 0px 10px rg ba(37, 50, 82, 0.25);
+  margin-bottom: 5%;
+  margin-top: 1%;
+  border: 3px solid rgba(37, 50, 82, 0.25);
+}
+
+.item-oplata {
+  width: 100%;
+  height: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.oplata-images {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.image {
+  width: 10%;
+  height: 30%;
+  margin: 2%;
+  margin-left: 0;
+}
+
+.oplata-text {
+  margin-top: 1%;
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 163.1%;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.payiconimg {
+  width: 100%;
+  height: 100%;
+}
+
+.checkout-item-store {
+  width: 35%;
+  height: auto;
+  background: #f8f8f8;
+  box-shadow: 0px 0px 10px rgba(153, 153, 153, 0.25);
+}
+
+.totalForm {
+  width: 90%;
+  margin: 5% auto;
+}
+
+.totalForm-df {
+  display: flex;
+  justify-content: space-between;
+  margin: 4% 0;
+}
+
+.totalOrder {
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 163.1%;
+  padding: 2%;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.subjects {
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163.1%;
+  color: #555555;
+}
+
+.totalForm-costs {
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 163.1%;
+  color: #555555;
+}
+
+.total {
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 163.1%;
+  color: #333333;
+}
+
+.promoCode-Block {
+  margin: 4% 0;
+}
+
+.promoCodeText {
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 163.1%;
+  color: #555555;
+}
+
+.totalForm-input {
+  width: 62%;
+  margin-left: 1%;
+  height: 30px;
+  background: #ffffff;
+  box-shadow: inset 0px 0px 10px rg ba(37, 50, 82, 0.25);
+  border: 3px solid rgba(37, 50, 82, 0.25);
+}
+
+.useBtn {
+  width: 34%;
+  height: auto;
+  margin: 0 auto;
+  padding: 1%;
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163.1%;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #999999;
+  box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+.checkboxBtnText {
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 163.1%;
+  color: #555555;
+}
+
+.CheckoutBtn {
+  width: 100%;
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 163.1%;
+  background: #555555;
+  text-transform: uppercase;
+  padding: 4px;
+  color: #ffffff;
+}
+
+.totalForm-submit {
+  margin: 6% 0;
+}
+
+@media (max-width: 900px) {
+  .ОФОРМЛЕНИЕ-ЗАКАЗА {
+    font-size: 20px;
+  }
+
+  .form-label {
+    font-size: 14px;
+  }
+
+  .oplata-text {
+    font-size: 17px;
+    /* background-color: #333333; */
+  }
+
+  .totalOrder {
+    font-size: 16px;
+  }
+
+  .subjects {
+    font-size: 16px;
+  }
+
+  .totalForm-costs {
+    font-size: 17px;
+  }
+
+  .total {
+    font-size: 17px;
+  }
+
+  .promoCodeText {
+    font-size: 15px;
+  }
+
+  .useBtn {
+    font-size: 14px;
+  }
+
+  .checkboxBtnText {
+    font-size: 15px;
+  }
+
+  .CheckoutBtn {
+    font-size: 15px;
+  }
+}

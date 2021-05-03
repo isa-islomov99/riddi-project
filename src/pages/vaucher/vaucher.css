@@ -1,0 +1,148 @@
+.vaucher {
+  width: 100%;
+  margin: 20px auto;
+  height: 100%;
+  text-align: start;
+}
+
+.vaucher-title {
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 163.1%;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #555555;
+}
+
+.vaucher-text {
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 163.1%;
+  margin-top: 8px;
+  margin-bottom: 14px;
+  color: #555555;
+}
+
+.vaucher-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-item {
+  width: 47%;
+  height: auto;
+}
+
+.img-vaucher {
+  width: 100%;
+  height: 100%;
+}
+
+.pay-item {
+  width: 47%;
+}
+
+.vaucher-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.form-label {
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163.1%;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.form-input {
+  width: 95%;
+  background: #ffffff;
+  /* box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25); */
+  padding: 9px;
+  margin-bottom: 8px;
+  border: 3px solid rgba(37, 50, 82, 0.25);
+  outline: none;
+}
+
+.form-input-message {
+  width: 97%;
+  height: 50px;
+  padding: 5px;
+  background: #ffffff;
+  /* box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25); */
+  margin-bottom: 6px;
+  border: 3px solid rgba(37, 50, 82, 0.25);
+  outline: none;
+}
+
+.form-input-cost {
+  width: 50%;
+  padding: 9px;
+  background: #ffffff;
+  /* box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25); */
+  border: 3px solid rgba(37, 50, 82, 0.25);
+  outline: none;
+}
+
+.send-cost {
+  width: 50%;
+}
+
+.form-label-cost-text {
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163.1%;
+  text-transform: uppercase;
+  color: #999999;
+  margin-left: 8%;
+}
+
+.pay-send {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-btn {
+  width: 50%;
+  height: 100%;
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 163.1%;
+  text-transform: uppercase;
+  color: #eeeeee;
+
+  background: #333333;
+  box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+  .vaucher-title {
+    font-size: 100%;
+  }
+
+  .vaucher-text {
+    font-size: 100%;
+  }
+
+  .form-label {
+    font-size: 100%;
+  }
+
+  .form-label-cost-text {
+    font-size: 100%;
+  }
+}
